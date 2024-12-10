@@ -12,6 +12,12 @@ import { cn } from "@/lib/utils";
 
 interface PaymentConfig {
   url: string;
+  bankInfo?: {
+    accountName: string;
+    accountNumber: string;
+    bankName: string;
+    bankCode: string;
+  };
 }
 
 export default function ApplicationSuccessPage() {
