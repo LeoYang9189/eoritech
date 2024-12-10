@@ -12,6 +12,7 @@ declare module 'framer-motion' {
         stiffness?: number;
         damping?: number;
         repeat?: number;
+        ease?: string;
       };
       whileHover?: any;
       variants?: {

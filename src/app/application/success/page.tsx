@@ -10,6 +10,10 @@ import { ApplicationData, PAYMENT_AMOUNT, PAYMENT_CONFIG } from "@/types/applica
 import { BankInfoDialog } from "@/components/ui/bank-info-dialog";
 import { cn } from "@/lib/utils";
 
+interface PaymentConfig {
+  url: string;
+}
+
 export default function ApplicationSuccessPage() {
   const router = useRouter();
   const [isDetailsExpanded, setIsDetailsExpanded] = useState(false);

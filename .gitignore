@@ -1,8 +1,10 @@
- # dependencies
+@"
+# dependencies
 /node_modules
 /.pnp
 .pnp.js
 .pnpm-store/
+.pnpm-debug.log*
 
 # testing
 /coverage
@@ -22,7 +24,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-.pnpm-debug.log*
 
 # local env files
 .env*.local
@@ -38,3 +39,7 @@ next-env.d.ts
 # IDE
 .vscode/
 .idea/
+
+# Large files
+*.node
+"@ | Out-File -FilePath .gitignore -Encoding utf8

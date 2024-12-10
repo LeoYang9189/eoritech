@@ -76,6 +76,10 @@ const DialogTitle = React.forwardRef<
 ));
 DialogTitle.displayName = DialogPrimitive.Title.displayName;
 
+export const DialogDescription = () => {
+    // DialogDescription implementation
+};
+
 export {
   Dialog,
   DialogTrigger,
