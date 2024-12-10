@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { PhoneCall, Globe2 } from "lucide-react";
+import { Phone, Globe2 } from "lucide-react";
 
 export function Footer() {
   return (
@@ -44,7 +44,7 @@ export function Footer() {
             <h3 className="text-white font-semibold mb-4">联系我们</h3>
             <ul className="space-y-4">
               <li className="flex items-center gap-2 text-gray-400">
-                <PhoneCall className="w-5 h-5" />
+                <Phone className="w-5 h-5" />
                 <span>+86 13482360085</span>
               </li>
             </ul>
