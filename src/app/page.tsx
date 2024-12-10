@@ -154,7 +154,7 @@ export default function Home() {
         {/* 底部渐变 */}
         <motion.div 
           className="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-[#0f1728] to-transparent"
-          style={{ y }}
+          style={{ transform: `translateY(${y})` }}
         />
       </section>
 
@@ -353,7 +353,7 @@ const features = [
   },
   {
     title: "全程跟踪",
-    description: "实时跟踪申请进度，及时��解最新状态",
+    description: "实时跟踪申请进度，及时解最新状态",
     icon: <Shield className="w-8 h-8 text-blue-400" />,
   },
 ]; 
@@ -410,12 +410,12 @@ const testimonials = [
   {
     name: "王老板",
     title: "贸易公司",
-    content: "整个申请过程非常顺畅，工作人员专业负责，以后还会继续合作！",
+    content: "整个申请过程非常顺畅，工作人员专业负责，以后还继续合作！",
   },
 ]; 
 
 const highlights = [
-  "专业团��指导",
+  "专业团队指导",
   "极速处理",
   "全程跟踪",
   "安全可靠",
