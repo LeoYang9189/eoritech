@@ -7,4 +7,5 @@ declare module '@/components/ui/button' {
   }
 
   export const Button: ForwardRefExoticComponent<ButtonProps & RefAttributes<HTMLButtonElement>>;
+  export const buttonVariants: (props: ButtonProps) => string;
 } 
