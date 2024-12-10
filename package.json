@@ -31,6 +31,9 @@
 		"react": "18.2.0",
 		"react-day-picker": "^9.4.2",
 		"react-dom": "18.2.0",
+		"tailwindcss": "^3.4.1",
+		"postcss": "^8.4.31",
+		"autoprefixer": "^10.0.1",
 		"tailwind-merge": "^2.2.1"
 	},
 	"devDependencies": {
@@ -39,12 +42,9 @@
 		"@types/node": "^20",
 		"@types/react": "^18",
 		"@types/react-dom": "^18",
-		"autoprefixer": "^10.0.1",
 		"eslint": "^8",
 		"eslint-config-next": "14.1.0",
-		"postcss": "^8.4.31",
 		"prisma": "5.8.1",
-		"tailwindcss": "^3.4.1",
 		"tailwindcss-animate": "^1.0.7",
 		"typescript": "^5"
 	}
