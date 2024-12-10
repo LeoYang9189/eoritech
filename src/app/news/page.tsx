@@ -1,6 +1,6 @@
 'use client';
 
-import { motion } from "framer-motion";
+import { motion, useScroll, useTransform } from "framer-motion";
 import Link from "next/link";
 import { Calendar } from "lucide-react";
 
@@ -61,7 +61,7 @@ const articles = [
     title: "什么是EORI号码？为什么进出口企业必须申请？",
     slug: "what-is-eori-number-and-why-important",
     date: "2024-03-10",
-    excerpt: "深入了解EORI号码的重要性，解释为什么它对于欧盟进出口贸易至关重要，以及没有EORI���能带来的影响。",
+    excerpt: "深入了解EORI号码的重要性，解释为什么它对于欧盟进出口贸易至关重要，以及没有EORI能带来的影响。",
   },
   {
     title: "EORI号码有效期和续期指南：确保您的号码始终有效",

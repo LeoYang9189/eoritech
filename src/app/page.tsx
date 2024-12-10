@@ -1,6 +1,6 @@
 'use client';
 
-import { motion, useTransform } from "framer-motion";
+import { motion, useScroll, useTransform } from "framer-motion";
 import { ArrowRight, Globe2, Zap, Shield, CheckCircle } from "lucide-react";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
@@ -353,7 +353,7 @@ const features = [
   },
   {
     title: "全程跟踪",
-    description: "实时跟踪申请进度，及时了解最新状态",
+    description: "实时跟踪申请进度，及时��解最新状态",
     icon: <Shield className="w-8 h-8 text-blue-400" />,
   },
 ]; 
@@ -415,7 +415,7 @@ const testimonials = [
 ]; 
 
 const highlights = [
-  "专业团队指导",
+  "专业团��指导",
   "极速处理",
   "全程跟踪",
   "安全可靠",
