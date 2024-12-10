@@ -2,11 +2,17 @@
 	"name": "eori-application",
 	"version": "0.1.0",
 	"private": true,
+	"packageManager": "pnpm@9.x",
+	"engines": {
+		"node": ">=18",
+		"pnpm": ">=9"
+	},
 	"scripts": {
-		"dev": "next dev -p 3000",
-		"build": "next build",
+		"dev": "next dev",
+		"build": "prisma generate && next build",
 		"start": "next start",
-		"lint": "next lint"
+		"lint": "next lint",
+		"vercel-build": "pnpm install --no-frozen-lockfile && pnpm prisma generate && pnpm build"
 	},
 	"dependencies": {
 		"@prisma/client": "5.8.1",
