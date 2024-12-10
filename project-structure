@@ -1,0 +1,24 @@
+eori-application/
+├── src/
+│   ├── app/
+│   │   ├── (auth)/
+│   │   │   ├── login/
+│   │   │   └── register/
+│   │   ├── (main)/
+│   │   │   ├── application/
+│   │   │   ├── progress/
+│   │   │   ├── validator/
+│   │   │   └── news/
+│   │   └── admin/
+│   ├── components/
+│   │   ├── ui/
+│   │   ├── layout/
+│   │   └── shared/
+│   ├── lib/
+│   │   ├── prisma.ts
+│   │   └── utils.ts
+│   └── styles/
+├── prisma/
+│   └── schema.prisma
+├── public/
+└── package.json 
