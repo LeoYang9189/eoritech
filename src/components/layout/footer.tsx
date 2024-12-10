@@ -44,10 +44,6 @@ export function Footer() {
             <h3 className="text-white font-semibold mb-4">联系我们</h3>
             <ul className="space-y-4">
               <li className="flex items-center gap-2 text-gray-400">
-                <Mail className="w-5 h-5" />
-                <span>gm@leotech.site</span>
-              </li>
-              <li className="flex items-center gap-2 text-gray-400">
                 <Phone className="w-5 h-5" />
                 <span>+86 13482360085</span>
               </li>
@@ -72,7 +68,6 @@ export function Footer() {
             <p className="text-gray-400">
               <Link 
                 href="https://beian.miit.gov.cn/" 
-                target="_blank"
                 className="hover:text-white transition-colors"
               >
                 沪ICP备2024104369号-2 | 沪ICP备2024104369号-3
