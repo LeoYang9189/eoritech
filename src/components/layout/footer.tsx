@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { Phone, Globe } from "lucide-react";
+import { PhoneCall, Globe2 } from "lucide-react";
 
 export function Footer() {
   return (
@@ -44,7 +44,7 @@ export function Footer() {
             <h3 className="text-white font-semibold mb-4">联系我们</h3>
             <ul className="space-y-4">
               <li className="flex items-center gap-2 text-gray-400">
-                <Phone className="w-5 h-5" />
+                <PhoneCall className="w-5 h-5" />
                 <span>+86 13482360085</span>
               </li>
             </ul>
@@ -54,7 +54,7 @@ export function Footer() {
           <div>
             <h3 className="text-white font-semibold mb-4">关注我们</h3>
             <div className="flex gap-4">
-              <Globe className="w-6 h-6 text-gray-400 hover:text-white cursor-pointer transition-colors" />
+              <Globe2 className="w-6 h-6 text-gray-400 hover:text-white cursor-pointer transition-colors" />
             </div>
           </div>
         </div>
